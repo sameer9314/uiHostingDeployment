@@ -2,5 +2,5 @@ version: 0.1
 phases:
     install:
         commands:
-        
-        - aws s3 sync s3://ui-cicd-with-github-and-codebuild --delete
+
+        - aws s3 s3://ui-cicd-with-github-and-codebuild
