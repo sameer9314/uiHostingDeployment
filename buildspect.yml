@@ -3,4 +3,4 @@ phases:
     install:
         commands:
 
-        - aws s3 s3://ui-cicd-with-github-and-codebuild
+        - aws s3 sync s3://ui-cicd-with-github-and-codebuild
